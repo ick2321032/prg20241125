@@ -6,23 +6,34 @@
         <link rel="stylesheet" href="style.css" type="stylesheets">
     </head>
     
-    <body>
-        <fieldset>   
-            <header>
-                <h1>市川天文台</h1>   
-            </header>
-            <!-- ラジオボタン -->
-            <div>
-                <!-- 星空観察会　ラジオボタン -->
-                <input type="radio" id="contactChoicel" name="contact/">
-                <label for="contactChoicel">星空観察会</label>
-                <!-- 館長の話を聞く会　ラジオボタン -->
-                <input type="radio" id="contactChoicel" name="contact/">
-                <label for="contactChoicel">館長の話を聞く会</label>
-            </div>
-
+    <body>  
+        <header>
+           <h1>市川天文台</h1>   
+        </header>
+        <form action="">
+            <fieldset>
+                <legend>イベント申し込みフォーム</legend>
+                <!-- ラジオボタン -->
+                <div>
+                    <!-- 星空観察会　ラジオボタン -->
+                    <input type="radio" id="contactChoicel1" name="contact/">
+                    <label for="contactChoicel">星空観察会</label>
+                    <!-- 館長の話を聞く会　ラジオボタン -->
+                    <input type="radio" id="contactChoicel2" name="contact/">
+                    <label for="contactChoicel">館長の話を聞く会</label>
+                </div>
+                <div>
+                    お名前
+                    <input type="text">
+                </div>
+                <div>
+                    電話番号
+                    <input type="text">
+                </div>
+                <input type="submit" value="送　信">
+             </fieldset>
+            </form>
             <!-- 戻るボタン -->
             <button onclick="location.href='./index.html'">戻る</button>
-        </fieldset>  
     </body>
 </html>
