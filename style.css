@@ -1,6 +1,6 @@
 header {
     width: 100%;
-    height: 10px;
+    height: 50px;
     position: fixed;
     top: 0;
     left: 0;
@@ -14,12 +14,21 @@ ul {
     color: white;
     list-style: none;
 }
-.a :hover{
+.wrapper {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.item a :hover{
     color: skyblue;
 }
-a {
+.item a {
     text-decoration: none;
-    
+
+}
+.item {
+    display: flex;
+
 }
 
 .Contents {
