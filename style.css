@@ -9,14 +9,12 @@ header {
     background-color: black;
     color: white;
 }
-h1{
-    color : white;
-} 
 p{
     color: white;
 }
 ul { 
     color: white;
+    list-style: none;
 }
 h2 {
     color:white;
