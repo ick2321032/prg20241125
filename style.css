@@ -1,11 +1,14 @@
 header {
-    width: 100%;
-    height: 100px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: 10px;
+    position: fixed; /*← fixedで固定 */
+    width: 100%; 
+    height: 60px; 
+    background: #CCC; 
+    padding: 20px 60px; 
+    box-sizing: border-box;
+    top: 0; 
+    left: 0; 
+    display: flex; 
+    align-items: center;
     background-color: black;
     color: white;
 
@@ -28,18 +31,6 @@ ul {
 .wrapper {
     margin: 0 auto;
     max-width: 100%;
-}
-
-.item a :hover{
-    color: skyblue;
-}
-.item a {
-    text-decoration: none;
-
-}
-.item {
-    display: flex;
-
 }
 
 .Contents {
