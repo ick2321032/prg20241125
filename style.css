@@ -29,7 +29,7 @@ header .nav .menu li {
 }
 
 header .nav .menu li a{
-   color: #B78D4A;
+   color: darkblue;
    font-weight:bold;
    text-decoration: none;
 }
@@ -39,7 +39,7 @@ main {
 }
 
 h2 {
-   color: #B78D4A;
+   color: darkblue;
    text-decoration: none;
    padding-top: 100px;
 }
