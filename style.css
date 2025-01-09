@@ -11,7 +11,7 @@ header {
     box-sizing: border-box;
     top: 0; 
     left: 0; 
-    display: flex; 
+    display: inline-block; 
     align-items: center; 
   
    /* ロゴとメニューを横並びにする */
