@@ -12,6 +12,14 @@ header {
     display: flex; 
     justify-content:space-between;
 }
+header .nav .menu {
+    display: flex; 
+}
+
+header .nav .menu li {
+    list-style: none; 
+    margin-left: 40px;
+}
 
 ul { 
     color: white;
