@@ -1,3 +1,7 @@
+body {
+    padding-top: 60px; 
+}
+
 header {
     position: fixed; /*← fixedで固定 */
     width: 100%; 
@@ -8,13 +12,13 @@ header {
     top: 0; 
     left: 0; 
     display: flex; 
-    align-items: center;
-    background-color: black;
-    color: white;
-
+    align-items: center; 
+  
+   /* ロゴとメニューを横並びにする */
     display: flex; 
     justify-content:space-between;
 }
+
 header .nav .menu {
     display: flex; 
 }
@@ -24,15 +28,37 @@ header .nav .menu li {
     margin-left: 40px;
 }
 
-ul { 
-    color: white;
-    list-style: none;
-}
-.wrapper {
-    margin: 0 auto;
-    max-width: 100%;
+header .nav .menu li a{
+   color: #B78D4A;
+   font-weight:bold;
+   text-decoration: none;
 }
 
+main {
+    text-align:center;
+}
+
+h2 {
+   color: #B78D4A;
+   text-decoration: none;
+   padding-top: 100px;
+}
+
+footer {
+    background: #CCC; 
+    padding:1em;
+    margin-top:100px;
+}
+
+footer p {
+    font-size: .8em;
+    color: #fff;
+    max-width: 800px;
+    padding: 0;
+    text-align:center;
+    margin:0 auto;
+    font-weight:bold;
+}
 .Contents {
     width: 100%; /* コンテンツの横幅を指定する */
     overflow: auto; /* コンテンツの表示を自動に設定（スクロール） */
