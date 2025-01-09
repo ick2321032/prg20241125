@@ -1,6 +1,6 @@
 header {
     width: 100%;
-    height: 50px;
+    height: 10px;
     position: fixed;
     top: 0;
     left: 0;
@@ -9,16 +9,19 @@ header {
     background-color: black;
     color: white;
 }
-p{
-    color: white;
-}
+
 ul { 
     color: white;
     list-style: none;
 }
-h2 {
-    color:white;
+.a :hover{
+    color: skyblue;
 }
+a {
+    text-decoration: none;
+    
+}
+
 .Contents {
     width: 100%; /* コンテンツの横幅を指定する */
     overflow: auto; /* コンテンツの表示を自動に設定（スクロール） */
@@ -27,5 +30,5 @@ h2 {
     background-image: url("img/main_pic.png"); /*イメージのリンク*/
     background-size: cover;
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
+    color: white;
 }
