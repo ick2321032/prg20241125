@@ -6,7 +6,7 @@ header {
     position: fixed; /*← fixedで固定 */
     width: 100%; 
     height: 60px; 
-    background: rgba(255, 255, 255, 0.7); 
+    background: rgba(255, 255, 255, 0.6); 
     padding: 20px 60px; 
     box-sizing: border-box;
     top: 0; 
@@ -28,7 +28,7 @@ header .nav .menu li {
     margin-left: 40px;
 }
 
-header .nav .menu li a{
+a{
    color: darkblue;
    font-weight:bold;
    text-decoration: none;
@@ -62,7 +62,8 @@ footer p {
 .Contents {
     width: 100%; /* コンテンツの横幅を指定する */
     overflow: auto; /* コンテンツの表示を自動に設定（スクロール） */
-    }
+}
+
 .body {
     background-image: url("img/main_pic.png"); /*イメージのリンク*/
     background-size: cover;
