@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>プログラミング技術</title>
+        <link rel="stylesheet" href="stylesheets.css">
+    </head>
+    
+    <body>  
+        <header>
+            <div ><a href="index.html"><img src="img\image.png" alt="市川のシンボルマーク" class="logo-img"></a></div>
+            <h1 class="header-logo"><a href="index.html">市川天文台</a></h1>
+    
+            <div class="header-list">
+                <ul>
+                    <li><a href="https://cms1.chiba-c.ed.jp/ichiko/setting/%E5%85%A8%E6%97%A5%E5%88%B6-1">私達について</a></li>
+                    <li><a href="supply_app.html">お申し込み</a></li>
+                    <li><a href="#blog">イベント</a></li>
+                    <li><a href="map_app.html">マップ</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="form">
+            <form action="">
+                    <h2>イベント申し込みフォーム</h2>
+                    <!-- ラジオボタン -->
+                    <div>
+                        <!-- 星空観察会　ラジオボタン -->
+                        <input type="radio" id="contactChoicel1" name="contact/">
+                        <label for="contactChoicel">星空観察会</label>
+                        <!-- 館長の話を聞く会　ラジオボタン -->
+                        <input type="radio" id="contactChoicel2" name="contact/">
+                        <label for="contactChoicel">館長の話を聞く会</label>
+                    </div>
+                    <!-- テキスト入力部分　-->
+                    <div>
+                        <table>
+                            <tr>
+                               <th> お名前：</th><td><input type="text" required placeholder="姓"><input type="text" required placeholder="名"></td>
+                            </tr>
+                            <br>
+                            <tr>
+                                <th>メールアドレス:</th>
+                                <td><input type="email" name="email" required></td>
+                            </tr>
+                            <br>
+                            <tr>
+                                <th>電話番号:</th>
+                                <td><input type="tel" name="tel" required></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <small>※お申し込みの完了のメールは受信までに天文学的な時間を要する場合がございます。あらかじめご了承ください。</small>
+                    <br>
+                    <!-- 送信ボタン -->
+                    <input type="submit" value="送　信">
+            </form>
+        </div>
+            <!-- 戻るボタン -->
+            <button onclick="location.href='index.html'"
+            >戻る</button>
+    </body>
+</html>

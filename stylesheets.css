@@ -1,0 +1,214 @@
+/* ヘッダー全体の設定 ----------------------------------*/
+header {
+    height: auto;
+    padding: 10px 3rem 10px 10px;
+    align-items: center;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+}
+/* li タグの設定 */
+.header-list li{
+    list-style: none;
+    display: inline-block;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+    font-size: 2vmin;
+}
+.header-list{
+    margin: 0 0 0 auto;
+}
+/* h1タグの設定 */
+.header-logo{
+    display: block;
+    padding: 10px;
+    font-size: 3vmin;
+    color: white;
+}
+/* aタグの設定 */
+.header-list a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+a{
+    position:relative;
+    display: inline-block;
+    transition: .3s;
+    text-decoration: none;
+    color: #ffffff;
+}
+.header-list a::after {
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: #ffffff;
+    transition: .3s;
+    transform: translateX(0%);
+}
+.header-list a:hover::after{
+ width: 100%;   
+}
+/* どこでも使う設定----------------------------------------- */
+/* logo-img クラスの設定 */
+.logo-img{
+    width: 5vmin;
+    height: 5vmin;
+    /* object-fit: cover; */
+}
+.title {
+    font-size: 4vmin;
+    padding: 5px;
+}
+p{
+    font-size: 2vmin;
+    padding: 5px;
+}
+.postscript{
+    font-size: 2vmin;
+    padding: 10px;
+    display: inline-block;
+    margin: 0 0 0 auto;
+}
+.postscript a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+a{
+    position:relative;
+    display: inline-block;
+    transition: .3s;
+    text-decoration: none;
+    color: #ffffff;
+}
+.postscript a::after {
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: #ffffff;
+    transition: .3s;
+    transform: translateX(0%);
+}
+.postscript a:hover::after{
+ width: 100%;   
+}
+.sec-small {
+    color: #d0d0d0;
+    font-size: 2vmin;
+}
+/* mainの設定 -------------------------------------------- */
+.main {
+
+}
+
+/* sectionの設定 ----------------------------------------- */
+.sec1{
+    background-image: url(img/main_pic.png);
+    background-size: cover;
+    background-position:50% 50%;
+    color: white;
+}
+.sec1-padding{
+    padding: 25% 10% 10% 5%;
+}
+
+.sec2{
+    padding: 10% 0 0 5%;
+    color: black;
+}
+
+
+.event-list{
+    font: size 20px;
+    display: inline-block;
+    padding: 10px;
+    font-size: 4vmin;
+} /* イベントリストの設定 */
+.event-item-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: auto;
+}
+.event-item{
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10;
+    text-align: center;
+    margin: 0 auto;
+}
+.event-img{
+    width: 273.2px;
+    height: 153.6x;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+/* buttonの設定 ---------------------------------------- */
+.more{
+
+}
+
+
+/* footerの設定 ------------------------------------------ */
+.footer {
+    /* background-color: gainsboro; */
+    padding-top: 3rem;
+    text-align: center;
+}
+.info-title{
+    font-size: 2remvmin;
+    text-align: center;
+}
+.info{
+    width: 100%;
+    max-width: 544px;
+    margin: auto;
+    padding: 0 1.5rem;
+    border-spacing: 0;
+}
+.info th, .info td{
+    border-bottom: 1px solid #e0e0e0;
+}
+.info th{
+    padding: 1rem;
+    text-align: left;
+    font-weight: normal;
+}
+.info td{
+    padding: 1rem 0;
+}
+.copyright{
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 3rem;
+    color: #fff;
+    background-color: #d0d0d0;
+}
+/* フォームの設定----------------------------- */
+.form {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 1.5rem;
+    justify-content: center;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+.form input[type="text"], .form input[type="email"], .form input[type="tel"],.form textarea{
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+    align-items: center;
+}
